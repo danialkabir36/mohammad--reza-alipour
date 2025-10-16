@@ -37,7 +37,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <h1>
+        <h1 className={styles.infoName}>
             MOHAMMAD REZA
           <br />
           ALIPOUR 
