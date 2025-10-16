@@ -37,26 +37,29 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-            M.REZA
+            MOHAMMAD REZA
           <br />
           ALIPOUR 
         </h1>
         <h2>Full Stack Developer</h2>
         <span>
-          <a href="https://www.instagram.com/charliekirk1776?igsh=MWpmbGNudW4waHVyaw==" target="_blank">
+          <a href="https://www.instagram.com/charliekirk1776?igsh=MWpmbGNudW4waHVyaw==" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>
+        <div className={styles.p}>
+          <p>
            <br /> With a passion for developing modern React web apps for commercial
           businesses.
         </p>
+        </div>
+        
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
