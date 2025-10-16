@@ -11,6 +11,11 @@
   .hero {
     max-width: 180px;
     width: 180px;
+    border-radius: 50%;
+  }
+  .hero:hover {
+    cursor: pointer;
+    transform: scale(1.05);
   }
   .p {
     display: flex;
