@@ -44,10 +44,10 @@ function Hero() {
         </h1>
         <h2>Full Stack Developer</h2>
         <span>
-          <a href="https://www.instagram.com/charliekirk1776?igsh=MWpmbGNudW4waHVyaw==" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/danialkabir36" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
